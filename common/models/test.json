@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "plural": "tests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "postgresql": {
+        "schema": "public",
+        "table": "test_table"
+      },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

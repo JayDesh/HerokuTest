@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "test": {
+    "name": "test",
+    "connector": "postgresql",
+    "url":"postgres://t_deshj:Sid12001@localhost:5432/test"
+  }
+}
